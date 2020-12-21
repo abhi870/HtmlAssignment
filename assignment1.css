@@ -1,0 +1,71 @@
+*{
+    font-family: monospace;
+    font-size: medium;
+}
+header{
+    text-align: center;
+}
+.MyNote{
+    background-color: #16aeeb;
+    color: black;
+    display: inline;
+    margin: 10px;
+    padding: 15px;
+    outline: none;
+    height: 130px;
+    width: 200;
+    border-radius: 25px;
+    border-color: #16aeeb;
+    transition: 0.3s;
+    box-shadow: 0 14px 15px 0 rgba(0,0,0,0.2);
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin:10px;
+}
+.sectionHeader{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+}
+.sectionHeaderAddNoteButton{
+    width: 100px;
+    height: 25px;
+    color: #16aeeb;
+    content: '\002B';
+}
+.sectionBody{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+#sectionContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+#btnAddSection{
+    background-color: #16aeeb;
+    border-color: #16aeeb;
+    border-radius: 5px;
+    outline: none;
+    height: 50px;
+    width: 100px;
+}
+input{
+    outline: none;
+}
+
+
