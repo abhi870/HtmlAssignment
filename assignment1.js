@@ -29,8 +29,8 @@ function addSection() {
 
     var sectionAddNoteButton = document.createElement("button");
     sectionAddNoteButton.id = "sectionHeaderAddNoteButton" + "-" + counter;
-    sectionAddNoteButton.className = "sectionHeaderAddNoteButton";
-    sectionAddNoteButton.innerHTML = "Add Note";
+    sectionAddNoteButton.className = "w3-button w3-circle w3-teal";
+    sectionAddNoteButton.innerHTML = "+";
 
     sectionAddNoteButton.onclick = addNewNote;
 

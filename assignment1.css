@@ -36,6 +36,7 @@ header{
     height: 25px;
     color: #16aeeb;
     content: '\002B';
+    font-size: xx-large;
 }
 .sectionBody{
     display: flex;
